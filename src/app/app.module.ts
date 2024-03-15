@@ -18,6 +18,7 @@ import { MomentFormComponent } from './components/moment-form/moment-form.compon
 
 import { from } from 'rxjs';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +27,8 @@ import { from } from 'rxjs';
     AboutComponent,
     HomeComponent,
     NewMomentComponent,
-    MomentFormComponent
+    MomentFormComponent,
+
   ],
   imports: [
     BrowserModule,
